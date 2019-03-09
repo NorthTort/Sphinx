@@ -1,1 +1,1 @@
-worker: node Sphinx.js
+worker: node Сфинкс.js
