@@ -6,7 +6,7 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
-var prefix = '*'
+var prefix = '!'
  
  client.on('message', message => {
     if(message.author === client.user) return;
