@@ -51,7 +51,7 @@ var prefix = '*'
      		message.channel.sendMessage(message.content.slice(prefix.length).split('send'));
 	 }
  	// Арты победителя
-if(message.content.startsWith(prefix + 'hero')) {
+if(message.content.startsWith(prefix + 'taro')) {
         message.delete()
   .then(msg => console.log(`Deleted message from ${msg.author.username}`))
   .catch(console.error); 
@@ -62,8 +62,8 @@ message.channel.send({
       }
    },
    files: [{
-      attachment: 'https://downloader.disk.yandex.ru/preview/9b68968f810d893d268285ec5f4c6fe5ba78bd24ce43952aa21f01ce6f67e08c/5c846bb8/_B0aXmp4RJTYYcc2mgnKlgD9fWRLaVLvfrH0I6FQitupboeV_7fXH6qfEf143CKsvQey7-8AxTpIu0FLFbFNdA%3D%3D?uid=0&filename=Hafiz.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
-      name: 'Win Hero.png'
+      attachment: 'https://github.com/NorthTort/Sphinx/raw/master/Taro%20v.1.png',
+      name: 'Taro.png'
    }]
 })
 .then(console.log)
