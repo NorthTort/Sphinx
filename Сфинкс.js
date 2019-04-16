@@ -51,7 +51,7 @@ var prefix = '*'
      		message.channel.sendMessage(message.content.slice(prefix.length).split('send'));
 	 }
  	// Арты победителя
-if(message.content.startsWith(prefix + 'vopros')) {
+if(message.content.startsWith(prefix + 'quest')) {
         message.delete()
   .then(msg => console.log(`Deleted message from ${msg.author.username}`))
   .catch(console.error); 
