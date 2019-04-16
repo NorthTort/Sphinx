@@ -51,7 +51,7 @@ var prefix = '*'
      		message.channel.sendMessage(message.content.slice(prefix.length).split('send'));
 	 }
  	// Арты победителя
-if(message.content.startsWith(prefix + 'quest')) {
+if(message.content.startsWith(prefix + 'hero')) {
         message.delete()
   .then(msg => console.log(`Deleted message from ${msg.author.username}`))
   .catch(console.error); 
@@ -63,7 +63,7 @@ message.channel.send({
    },
    files: [{
       attachment: 'https://downloader.disk.yandex.ru/preview/9b68e3fbf2050ec2312d7311a6715742e7522833c70896e0589be819f6ff203f/5cb680b4/Z2YDzIUVxDI9ivKB3DctAsxwt2xdTymvlVDey-GFb99saxVf9Ij_uGRL8C1Qh6Xczx7jGs02ANaKq7k-sgQ4_g%3D%3D?uid=0&filename=Вопрос%201.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
-      name: 'Vopros.png'
+      name: 'Win Hero.png'
    }]
 })
 .then(console.log)
