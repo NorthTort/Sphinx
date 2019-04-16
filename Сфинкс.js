@@ -51,7 +51,7 @@ var prefix = '*'
      		message.channel.sendMessage(message.content.slice(prefix.length).split('send'));
 	 }
  	// Арты победителя
-if(message.content.startsWith(prefix + 'taro')) {
+if(message.content.startsWith(prefix + 'vopros')) {
         message.delete()
   .then(msg => console.log(`Deleted message from ${msg.author.username}`))
   .catch(console.error); 
@@ -62,8 +62,8 @@ message.channel.send({
       }
    },
    files: [{
-      attachment: 'https://github.com/NorthTort/Sphinx/raw/master/Taro%20v.1.png',
-      name: 'Taro.png'
+      attachment: 'https://github.com/NorthTort/Sphinx/raw/master/Вопрос%201.png',
+      name: 'Vopros.png'
    }]
 })
 .then(console.log)
