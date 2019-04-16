@@ -62,7 +62,7 @@ message.channel.send({
       }
    },
    files: [{
-      attachment: 'https://github.com/NorthTort/Sphinx/blob/master/Вопрос%201.png?raw=true',
+      attachment: 'https://downloader.disk.yandex.ru/preview/9b68e3fbf2050ec2312d7311a6715742e7522833c70896e0589be819f6ff203f/5cb680b4/Z2YDzIUVxDI9ivKB3DctAsxwt2xdTymvlVDey-GFb99saxVf9Ij_uGRL8C1Qh6Xczx7jGs02ANaKq7k-sgQ4_g%3D%3D?uid=0&filename=Вопрос%201.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
       name: 'Vopros.png'
    }]
 })
