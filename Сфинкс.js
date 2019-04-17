@@ -62,7 +62,7 @@ message.channel.send({
       }
    },
    files: [{
-      attachment: 'https://github.com/NorthTort/Sphinx/raw/master/Vopros1.png',
+      attachment: 'https://github.com/NorthTort/Sphinx/raw/master/ReitGer1.png',
       name: 'Win Hero.png'
    }]
 })
