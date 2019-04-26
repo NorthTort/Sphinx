@@ -40,8 +40,8 @@ var prefix = '*'
 	  message.delete()
   .then(msg => console.log(`Deleted message from ${msg.author.username}`))
   .catch(console.error); 
-     		message.channel.semaster/111.png',
-      name: 'Win Hero.png'ndMessage(message.content.slice(prefix.length).split('say'));
+     		message.channel.sendMessage(message.content.slice(prefix.length).split('say'));
+
 	 }
 	  if(message.content.startsWith(prefix + 'send')) {
   if(message.author.id !== '435498881040777231') return;
