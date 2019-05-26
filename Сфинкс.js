@@ -63,7 +63,7 @@ message.channel.send({
       }
    },
    files: [{
-      attachment: 'https://downloader.disk.yandex.ru/preview/c9b54bd18d9020e59f81bb6e0c1c791ea198103e14e3f256170f6ff4a1e2b79e/5ceb445a/GtnOA1TfZ3hfFKWlKZBLY-trdgmssiUCGYVGo4eAZzM6vNygfXg94xbHGw403nUZvMX661XDAFB1qN4nP0YVDQ%3D%3D?uid=0&filename=Итоги.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
+      attachment: 'https://github.com/NorthTort/Sphinx/raw/master/Itogi.png',
       name: 'Win Hero.png'
    }]
 })
